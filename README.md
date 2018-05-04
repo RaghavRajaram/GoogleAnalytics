@@ -26,10 +26,12 @@ Monthly Cumulative Revenue by Region
 - Perform PCA on features.
 
 Scree Plot
+
 ![Scree](https://github.com/RaghavRajaram/GoogleAnalytics/blob/master/Scree.PNG)
 
 Cumulative Scree Plot
+
 ![Scree](https://github.com/RaghavRajaram/GoogleAnalytics/blob/master/CumulativeScree.PNG)
 
 - Predict Revenue using NNET, MARS and KKNN.
-- Identify best model to predict Revenue (KKNN).
+- Identify best model to predict Revenue (KKNN). Mean error of 51.84. Mean of Revenue = 862.96. Median of Revenue = 149
