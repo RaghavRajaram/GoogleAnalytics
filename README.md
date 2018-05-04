@@ -33,5 +33,6 @@ Cumulative Scree Plot
 
 ![Scree](https://github.com/RaghavRajaram/GoogleAnalytics/blob/master/CumulativeScree.PNG)
 
-- Predict Revenue using NNET, MARS and KKNN.
+- Scree plots suggest that 8 components explain ~98% of variation in data. Limit prinicipal components to 8.
+- Create train and test data. Perform k-fold cross validation to identify best model (from KKNN, MARS & NNET) for predictions.
 - Identify best model to predict Revenue (KKNN). Mean error of 51.84. Mean of Revenue = 862.96. Median of Revenue = 149
